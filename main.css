@@ -1,0 +1,93 @@
+ body{
+    background-color: pink;
+   
+}
+
+.form{
+  
+    background-color: white;
+    width: 40%;
+    height: 120px;
+    margin: auto;
+     display: flex;
+    justify-content: center;
+    
+}
+
+form input{
+   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 200px;
+    height: 20px;
+    padding: 0;
+    margin:auto;
+    margin-top:12px;
+    margin-bottom: 5px;
+    
+}
+
+#bAdd{
+    background-color: rgb(20, 20, 189);
+    color: white;
+}
+
+.eventContainer{
+   
+    width: 90%;
+    height: 100px;
+     margin: auto;
+     margin-top: 55px;
+     background-color: white;
+    box-sizing: border-box;
+    width:50%; /* Ancho del div */
+    height: 60%; /* Alto del div */
+    padding: 10px; /* Margen interno */
+  
+   
+}
+
+.evento{
+   background-color: white;
+   border: 1px grey solid;
+   width: 70%;
+   height: 40%;
+    margin: auto;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width:80%; /* Ancho del div */
+    height: 60%; /* Alto del div */
+    padding: 10px; /* Margen interno */
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+   
+}
+.days-number{
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.event-name{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.event-date{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 30%;
+    border: none;
+    background-color: red;
+    margin-left: 20px;
+}
